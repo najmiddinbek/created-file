@@ -55,7 +55,7 @@ export default function LoginForm() {
       });
       return;
     }
-    if (email === "dashboard" && password === "superadmin") {
+    if (email === "superadmin" && password === "superadmin") {
       router.replace("/SuperAdmin");
       toast.success(`Xush kelibsiz`, {
         position: "top-right",
