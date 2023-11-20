@@ -67,7 +67,7 @@ const PupilsAddClient = () => {
                     <option>Bu yerdan tanlang</option>
                     {maktablar.map((maktab) => (
                         <option key={maktab} value={maktab}>
-                            {maktab}-maktab
+                            {maktab}maktab
                         </option>
                     ))}
                 </select>
